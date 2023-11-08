@@ -5,14 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Ajax</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <main>
-        <section>
-            <h1>JavaScript Ajax Request </h1>
-            <h5>Explore the JavaScript </h5>
+        <section class="header-container">
+            <h5> Ajax Request </h5>
+            <h1>Explore the JavaScript </h1>
         </section>
+        <section class="table-container">
+            <table>
+                <thead>
+                  <tr>
+                    <th>Code </th>
+                    <th> Name</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Total Price</th>
+                    <th>Update</th>
+                    <th>Delete</th>
+                  </tr>
+                </thead>
+                <tbody id="item-list">
+                  
+                </tbody>
+              </table>
+        </section>
+
     </main>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="./js/app.js"></script>
